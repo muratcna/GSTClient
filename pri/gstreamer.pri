@@ -1,0 +1,91 @@
+win32 {
+
+    INCLUDEPATH += "$$PWD/../libs/gstreamer/include"
+    INCLUDEPATH += "$$PWD/../libs/gstreamer/include/gstreamer-1.0"
+    INCLUDEPATH += "$$PWD/../libs/gstreamer/include/glib-2.0"
+
+    LIBS += -L"$$PWD/../libs/gstreamer/lib" \
+            -lbz2 \
+            -lcairo-gobject \
+            -lcairo-script-interpreter \
+            -lcairo \
+            -lcharset \
+            -lcroco-0.6 \
+            -ldv \
+            -lexpat \
+            -lffi \
+            -lFLAC \
+            -lfontconfig \
+            -lfreetype \
+            -lgdk_pixbuf-2.0 \
+            -lgio-2.0 \
+            -lglib-2.0 \
+            -lglib-2.0 \
+            -lgmodule-2.0 \
+            -lgobject-2.0 \
+            -lgraphene-1.0 \
+            -lgstadaptivedemux-1.0 \
+            -lgstallocators-1.0 \
+            -lgstapp-1.0 \
+            -lgstaudio-1.0 \
+            -lgstbadaudio-1.0 \
+            -lgstbase-1.0 \
+            -lgstbasecamerabinsrc-1.0 \
+            -lgstcodecparsers-1.0 \
+            -lgstcontroller-1.0 \
+            -lgstfft-1.0 \
+            -lgstgl-1.0 \
+            -lgstinsertbin-1.0 \
+            -lgstmpegts-1.0 \
+            -lgstnet-1.0 \
+            -lgstpbutils-1.0 \
+            -lgstphotography-1.0 \
+            -lgstplayer-1.0 \
+            -lgstreamer-1.0 \
+            -lgstriff-1.0 \
+            -lgstrtp-1.0 \
+            -lgstrtsp-1.0 \
+            -lgstrtspserver-1.0 \
+            -lgstsdp-1.0 \
+            -lgsttag-1.0 \
+            -lgsturidownloader-1.0 \
+            -lgstvideo-1.0 \
+            -lgthread-2.0 \
+            -lharfbuzz \
+            -liconv \
+            -lintl \
+            -ljpeg \
+            -ljson-glib-1.0 \
+            -lkate \
+            -lnice \
+            -logg \
+            -loggkate \
+            -lopenh264 \
+            -lopenjp2 \
+            -lopus \
+            -lorc-0.4 \
+            -lorc-test-0.4 \
+            -lpango-1.0 \
+            -lpangocairo-1.0 \
+            -lpangoft2-1.0 \
+            -lpangowin32-1.0 \
+            -lpixman-1 \
+            -lpng16 \
+            -lrsvg-2 \
+            -lsbc \
+            -lsoup-2.4 \
+            -lspandsp \
+            -lspeex \
+            -ltheora \
+            -ltheoradec \
+            -ltheoraenc \
+            -ltiff \
+            -lturbojpeg \
+            -lvisual-0.4 \
+            -lvorbis \
+            -lvorbisenc \
+            -lvorbisfile \
+            -lwavpack \
+            -lxml2 \
+            -lz
+}
