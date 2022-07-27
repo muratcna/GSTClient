@@ -10,7 +10,6 @@
 
 #include <QObject>
 
-// TODO: is it necesary to be qobject?
 class BDecoder
 {
 public:
